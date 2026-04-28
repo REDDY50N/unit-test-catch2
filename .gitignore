@@ -1,3 +1,11 @@
+# Build artifacts
+bin/
+cmake-build-*
+tmp/
+
+# IDE
+.idea
+
 # Prerequisites
 *.d
 
