@@ -1,5 +1,6 @@
 add_library(WeaponsLib STATIC
         G36.cpp
+        SCAR5.cpp
 )
 
 target_include_directories(WeaponsLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

@@ -27,6 +27,7 @@ CPMAddPackage(NAME Catch2    GIT_REPOSITORY "https://github.com/catchorg/Catch2.
 # -----------------------------------------------
 # UNIT TESTING
 # -----------------------------------------------
+include(CTest)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --coverage")
 enable_testing()
 
