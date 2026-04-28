@@ -1,0 +1,8 @@
+AlignConsecutiveAssignments: true
+AlignTrailingComments: true
+AllowShortLoopsOnASingleLine: false
+ColumnLimit: 120
+CommentPragmas:  '^@.+'
+IndentWidth: 2
+NamespaceIndentation: All
+Standard: c++17
